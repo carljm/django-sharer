@@ -24,7 +24,7 @@ include it in your INSTALLED_APPS in settings.py:
 
     INSTALLED_APPS = (
         ...
-        'django-sharer',
+        'sharer',
         ...
     )
 

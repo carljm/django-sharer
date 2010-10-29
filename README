@@ -44,11 +44,9 @@ your urls.py to include sharer urls:
 
     (r'^share/', include('sharer.urls')),
 
-In your MEDIA_ROOT folder, make a symlink named sharer to the django-sharer's
-media directory:
-
-    cd my_project/media
-    ln -s path/to/django-sharer/sharer/media sharer
+Make the sharer app's static assets available in your static assets
+directory, using your preferred method (copy, symlink, webserver
+configuration, or ``contrib.staticfiles``).
 
 Finally, to use the widget in your templates, load the template tag library,
 include the necessary JS and CSS files, and then call the template tag:

@@ -2,5 +2,5 @@ include LICENSE
 include RELEASES
 include README
 recursive-include sharer/templates *.html *.txt *.json
-recursive-include sharer/media *.css *.js *.png
+recursive-include sharer/static *.css *.js *.png
 recursive-include sharer/fixtures *.json
